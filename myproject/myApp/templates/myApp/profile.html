@@ -1,0 +1,118 @@
+{%extends 'base.html'%}
+{%block content%}
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Your Name - Profile</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 20px;
+      background-color: #f0f0f0;
+    }
+    h1 {
+      color: #007BFF;
+      text-align: center;
+      margin-bottom: 10px;
+    }
+    h2 {
+      color: #333;
+    }
+    p {
+      margin-bottom: 10px;
+    }
+    .profile-pic {
+      display: block;
+      margin: 0 auto;
+      max-width: 200px;
+      border-radius: 50%;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    }
+    .section {
+      margin-bottom: 30px;
+      padding: 20px;
+      background-color: #fff;
+      border-radius: 5px;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    }
+    .section h2 {
+      border-bottom: 2px solid #007BFF;
+      padding-bottom: 5px;
+    }
+    .section ul {
+      list-style: disc;
+      margin-left: 20px;
+    }
+    .contact-info {
+      text-align: center;
+    }
+    .contact-info a {
+      color: #007BFF;
+      text-decoration: none;
+      margin: 0 10px;
+      transition: color 0.3s;
+    }
+    .contact-info a:hover {
+      color: #0056b3;
+    }
+  </style>
+</head>
+<body>
+  <div class="section">
+    {% comment %} <img src="link_to_your_profile_picture" alt="Your Name" class="profile-pic"> {% endcomment %}
+    <h1>Berlin Jino</h1>
+    <p>
+      Welcome to my profile page! I am passionate about population analysis and data visualization. Currently, I am working on an exciting project using Tableau to explore and present population trends and insights.
+    </p>
+  </div>
+
+  <div class="section">
+    <h2>Background</h2>
+    <p>
+        Over the past month, I have been actively engaged in data analysis and visualization projects using Python. During this time, my interest in population analysis was sparked, particularly in understanding population growth trends through graphical representations. I believe that visualizing population data in graph formats can significantly enhance comprehension and facilitate more effective decision-making processes. As a result, I am eager to further explore and delve into population analysis to contribute professionally in this field.
+    </p>
+  </div>
+
+  <div class="section">
+    <h2>Skills</h2>
+    <p>
+      Some of my key skills include:
+      <ul>
+        <li>Data Analysis</li>
+        <li>Data Visualization with Tableau</li>
+        <li>Python</li>
+        <li>Django</li>
+      </ul>
+    </p>
+  </div>
+
+  <div class="section">
+    <h2>Projects</h2>
+    <p>
+        Presently, I am actively engaged in a project focused on "Population Analysis with Tableau." The primary objective of this project is to present the population data of various countries over the past few years through graphical representations. The aim is to gain a comprehensive understanding of the significant growth in population figures..
+    </p>
+    <p>
+        Additionally, I have worked on Blockchain Technology to develop a Decentralized Crowdfunding website.  
+    </p>
+  </div>
+
+  <div class="section">
+    <h2>Contact</h2>
+    <div class="contact-info">
+      <p>Email: your_email@example.com</p>
+      <p>Phone: (123) 456-7890</p>
+      <p>
+        LinkedIn: <a href="link_to_your_linkedin_profile" target="_blank">Your LinkedIn Profile</a>
+        &nbsp;&nbsp;
+        Twitter: <a href="link_to_your_twitter_profile" target="_blank">Your Twitter Profile</a>
+        <!-- Add more social media links if desired -->
+      </p>
+    </div>
+  </div>
+</body>
+</html>
+
+
+{%endblock%}
